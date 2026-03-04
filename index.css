@@ -51,15 +51,32 @@ body{
 }
 
 
-#profilelink {
+#githublink {
   width: 50px;
+}
+
+#gitlablink {
+  width: 50px;
+ 
  
 }
 
+#linkinlink {
+  width: 50px;
+ 
+ 
+}
+
+
+#downloadlink {
+  width: 50px;
+  
+ 
+}
 #pic1 {
   width:300px;
   height: 300px;
-  z-index: 2;
+  z-index: 2 !important;
 }
 
 
@@ -161,32 +178,15 @@ footer {
 }
 
 
-.flip-box {
-  width: 250px;
-  height: 250px;
-  perspective: 1000px; /* creates 3D effect */
-}
 
-.flip-inner {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
 
-#profilelink {
-  transition: transform 0.6s ease-in-out;
-}
 
-#profilelink:hover {
-  transform: rotateY(180deg);
-}
 
 #rectanglebg1 {
   position: absolute;
   opacity: 0.2;
-  top: 145px;
-  right: 275px;
+  top: 200px;
+  right: 380px;
   width: 370px;
   height: 380px;
   z-index: 1;
@@ -195,10 +195,10 @@ footer {
 
 #rectanglebg2 {
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.1;
  /* top: 170px;*/
- top: 10rem;
-  right: 280px;
+ top: 200px;
+  right: 380px;
   width: 350px;
   height: 350px;
   z-index: 1;
@@ -208,7 +208,7 @@ footer {
 #criclebg3 {
   position: absolute;
   opacity: 0.3;
- top: 10rem;
+ top: 8rem;
   left: 280px;
   width: 350px;
   height: 350px;
