@@ -1,0 +1,205 @@
+*{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+	  background: #011A26;
+}
+
+
+#navbar{
+	
+	background: linear-gradient(to right, black, #011A26);
+}
+
+#landing {
+  	margin-bottom: 10rem;
+  	margin-top: 5rem;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #011A26, #00A8CD) 1;
+    padding-bottom: 200px;
+}
+
+#project {
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #011A26, #00A8CD) 1;
+    padding-bottom: 200px;
+}
+
+#tool {
+    margin-bottom: 10rem;
+    margin-top:0 !important;
+     border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #011A26, #00A8CD) 1;
+    padding-bottom: 200px;
+}
+
+#contact {
+    margin-bottom: 10rem;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #011A26, #00A8CD) 1;
+    padding-bottom: 200px;
+
+}
+
+
+#profilelink {
+  width: 50px;
+ 
+}
+
+#pic1 {
+  width:300px;
+  height: 300px;
+  z-index: 2;
+}
+
+
+#contact input {
+border: none;
+border-bottom: 2px solid #007497;
+background: transparent;
+color: white;
+
+}
+
+#contact input::placeholder{
+  color: white;
+}
+
+#contact textarea {
+border: none;
+border: 2px solid #007497;
+background: transparent;
+color: white;
+
+}
+
+#contact textarea::placeholder{
+  color: white;
+}
+
+#project .card-body{
+	background: #011A26;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+	background: linear-gradient(to left, black, #011A26);
+}
+
+.navbar {
+	padding: 0;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+
+}
+
+#contact img {
+	width: 50px;
+}
+
+
+#tool img {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+	background: linear-gradient(to left, black, #011A26);
+  border-radius: 5px;
+}
+
+
+#contact button {
+  background-color: #011A26;
+  color: white;
+  padding: 10px 20px;
+}
+
+#contact button:hover {
+  background-color: #011A26;
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  color: gold;
+}
+
+
+#contact {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  background: linear-gradient(to left, black, #011A26);
+  padding: 20px;
+  width: 80%;
+  border-radius: 25px;
+
+}
+
+#card {
+  transition: all 0.3s ease;
+  border: 3px;
+  width: 150px;
+}
+
+#card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+
+}
+
+
+
+
+footer {
+
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+.flip-box {
+  width: 250px;
+  height: 250px;
+  perspective: 1000px; /* creates 3D effect */
+}
+
+.flip-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+#profilelink {
+  transition: transform 0.6s ease-in-out;
+}
+
+#profilelink:hover {
+  transform: rotateY(180deg);
+}
+
+#bg1 {
+  position: absolute;
+  opacity: 0.5;
+  top: 200px;
+  width: 350px;
+  height: 350px;
+  right: 100px;
+  z-index: 1;
+
+}
+
+#bg2 {
+  position: absolute;
+  opacity: 0.5;
+  top: 200px;
+  width: 350px;
+  height: 350px;
+  right: 130px;
+  z-index: 1;
+
+
