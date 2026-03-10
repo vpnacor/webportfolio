@@ -74,10 +74,34 @@ body{
  
 }
 #pic1 {
-  width:300px;
-  height: 300px;
-  z-index: 2 !important;
+  position: relative;
+  z-index: 2;
+  width: 70%;
+  max-width: 320px;
 }
+
+#rectanglebg_blue {
+  position: absolute;
+    top: -10%;
+    left: 26%;
+    width: 60%;
+    max-width: 370px;
+    z-index: 1;
+    opacity: 0.6;
+
+}
+
+#rectanglebg_darkblue {
+   position: absolute;
+    top: -10%;
+    left: 26%;
+    width: 60%;
+    max-width: 370px;
+    z-index: 1;
+    opacity: 0.6;
+
+}
+
 
 
 #contact input {
@@ -182,28 +206,6 @@ footer {
 
 
 
-#rectanglebg1 {
-  position: absolute;
-  opacity: 0.2;
-  top: 200px;
-  right: 380px;
-  width: 370px;
-  height: 380px;
-  z-index: 1;
-
-}
-
-#rectanglebg2 {
-  position: absolute;
-  opacity: 0.1;
- /* top: 170px;*/
- top: 200px;
-  right: 380px;
-  width: 350px;
-  height: 350px;
-  z-index: 1;
-
-}
 
 #criclebg3 {
   position: absolute;
