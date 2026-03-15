@@ -18,6 +18,11 @@ body{
 	background: linear-gradient(to right, black, #011A26);
 }
 
+#logo{
+  width: 5%;
+  height: 5%;
+  
+}
 #landing {
   	margin-bottom: 10rem;
   	margin-top: 5rem;
